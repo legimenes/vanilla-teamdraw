@@ -15,10 +15,7 @@ npm init -y
 npm install pg-promise jest
 ```
 ```
-npm uninstall dotenv --save-dev
-```
-```
-npm install nodemon --save-dev
+npm install dotenv --save-dev
 ```
 
 ## Run app in dev
