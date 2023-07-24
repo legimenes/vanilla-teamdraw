@@ -4,13 +4,18 @@ This is a ***vanilla*** nodejs API for a team draw application that forms balanc
 
 The idea of ​​this vanilla api is to build it using only nodejs core without any framework.
 
+Preloading is being used to load env files (any we want) without changing the application code.
+
 ## npm
 
 ```
 npm init -y
 ```
 ```
-npm install dotenv pg-promise jest
+npm install pg-promise jest
+```
+```
+npm uninstall dotenv --save-dev
 ```
 ```
 npm install nodemon --save-dev
